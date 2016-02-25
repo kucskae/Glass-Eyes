@@ -1,0 +1,127 @@
+﻿[2016.02.24-19.56.49:202][  0]Log file open, 02/24/16 14:56:49
+[2016.02.24-19.56.49:202][  0]LogInit:Display: Running engine for game: Glass_Eyes
+[2016.02.24-19.56.49:202][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.24-19.56.49:202][  0]LogInit:Display: RandInit(-859167280) SRandInit(-859167278).
+[2016.02.24-19.56.49:202][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.24-19.56.49:202][  0]LogStats: Stats thread started at 0.208396
+[2016.02.24-19.56.49:202][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.24-19.56.49:202][  0]LogInit: API Version: 2758231
+[2016.02.24-19.56.49:202][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.02.24-19.56.49:202][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.24-19.56.49:202][  0]LogInit: Build Configuration: Development
+[2016.02.24-19.56.49:202][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.24-19.56.49:202][  0]LogInit: Command line: 
+[2016.02.24-19.56.49:202][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.24-19.56.49:202][  0]LogInit: Rocket: 1
+[2016.02.24-19.56.49:222][  0]LogInit: Using libcurl 7.41.0
+[2016.02.24-19.56.49:222][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.24-19.56.49:222][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.24-19.56.49:222][  0]LogInit:  - other features:
+[2016.02.24-19.56.49:222][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.24-19.56.49:222][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.24-19.56.49:222][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.24-19.56.49:222][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.24-19.56.49:222][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.24-19.56.49:223][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.24-19.56.49:223][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.24-19.56.49:223][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.24-19.56.49:223][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.24-19.56.49:223][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.24-19.56.49:243][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.24-19.56.49:260][  0]LogInit: Object subsystem initialized
+[2016.02.24-19.56.49:265][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.24-19.56.49:265][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.24-19.56.49:323][  0]LogInit: Computer: NEON_BOLT_54
+[2016.02.24-19.56.49:323][  0]LogInit: User: Eric
+[2016.02.24-19.56.49:323][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.24-19.56.49:323][  0]LogInit: High frequency timer resolution =2.046952 MHz
+[2016.02.24-19.56.49:323][  0]LogMemory: Memory total: Physical=7.2GB (8GB approx)
+[2016.02.24-19.56.49:323][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.24-19.56.49:324][  0]LogMemory: Process Physical Memory: 54.00 MB used, 54.00 MB peak
+[2016.02.24-19.56.49:324][  0]LogMemory: Process Virtual Memory: 54.65 MB used, 54.65 MB peak
+[2016.02.24-19.56.49:324][  0]LogMemory: Physical Memory: 5522.47 MB used, 7364.70 MB total
+[2016.02.24-19.56.49:324][  0]LogMemory: Virtual Memory: 360.40 MB used, 134217728.00 MB total
+[2016.02.24-19.56.49:399][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.02.24-19.56.50:852][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon(TM) HD 8610G (Feature Level 11_0)
+[2016.02.24-19.56.50:852][  0]LogD3D11RHI: Adapter has 749MB of dedicated video memory, 0MB of dedicated system memory, and 3456MB of shared system memory, 1 output[s]
+[2016.02.24-19.56.50:859][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.24-19.56.50:859][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.02.24-19.56.50:859][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.24-19.56.50:885][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.24-19.56.50:885][  0]LogRHI: Texture pool is 524 MB (70% of 749 MB)
+[2016.02.24-19.56.50:919][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.02.24-19.56.50:949][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/Eric/Documents/GitHub/Glass-Eyes/Glass_Eyes/Intermediate/Shaders/WorkingDirectory/8328/).
+[2016.02.24-19.56.50:950][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Eric/AppData/Local/Temp/UnrealShaderWorkingDir/F61B14914898FADDD7FF49A6F21D53B4/'.
+[2016.02.24-19.56.50:950][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.24-19.56.55:487][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.24-19.56.55:533][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.24-19.56.55:560][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.24-19.56.55:581][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.24-19.56.55:610][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.24-19.56.55:631][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.24-19.56.55:647][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.24-19.56.55:661][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.24-19.56.55:674][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.24-19.56.55:683][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.24-19.56.55:693][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.24-19.56.55:714][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.24-19.56.55:714][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.24-19.56.55:717][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.24-19.56.55:745][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.24-19.56.55:754][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.24-19.56.55:763][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.24-19.56.55:790][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.24-19.56.55:791][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.24-19.56.56:066][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.24-19.56.57:146][  0]LogDerivedDataCache: Loaded boot cache 1.08s 41MB C:/Users/Eric/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.24-19.56.57:147][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Eric/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.24-19.56.57:147][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Eric/Documents/GitHub/Glass-Eyes/Glass_Eyes/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.24-19.56.57:147][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.24-19.56.57:147][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Eric/Documents/GitHub/Glass-Eyes/Glass_Eyes/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.24-19.56.57:147][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.24-19.56.57:528][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.24-19.56.57:586][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Eric/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.24-19.56.59:424][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.24-19.56.59:434][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.24-19.56.59:845][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.24-19.56.59:845][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.24-19.57.01:001][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.24-19.57.32:912][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.24-19.57.33:664][  0]LogAssetRegistry: FAssetRegistry took 0.0119 seconds to start up
+[2016.02.24-19.57.34:469][  0]SourceControl: Info Source control is disabled
+[2016.02.24-19.57.34:474][  0]SourceControl: Info Source control is disabled
+[2016.02.24-19.57.34:536][  0]SourceControl: Info Source control is disabled
+[2016.02.24-19.57.34:588][  0]SourceControl: Info Source control is disabled
+[2016.02.24-19.57.36:537][  0]LogObj: 28637 objects as part of root set at end of initial load.
+[2016.02.24-19.57.36:537][  0]LogUObjectAllocator: 6101640 out of 0 bytes used by permanent object pool.
+[2016.02.24-19.57.36:784][  0]LogEngine: Initializing Engine...
+[2016.02.24-19.57.36:795][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.24-19.57.36:804][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.24-19.57.37:489][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.24-19.57.37:503][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-19.57.37:568][  0]LogInit: FAudioDevice initialized.
+[2016.02.24-19.57.37:794][  0]LogDerivedDataCache: Saved boot cache 0.23s 41MB C:/Users/Eric/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.24-19.57.37:858][  0]LogInit: Texture streaming: Enabled
+[2016.02.24-19.57.37:905][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.24-19.57.37:905][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.24-19.57.37:906][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 0a6b46464d0d31169e959d929e6fa3e9|24c06dece7b84051854062f7994677a4|41f97bea-08f5-47e9-a593-a868c93c43ca
+[2016.02.24-19.57.37:906][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.24-19.57.37:944][  0]LogInit: Transaction tracking system initialized
+[2016.02.24-19.57.38:075][  0]BlueprintLog: New page: Editor Load
+[2016.02.24-19.57.38:485][  0]LocalizationService: Info Localization service is disabled
+[2016.02.24-19.57.39:495][  0]LogConsoleResponse:Display: 
+[2016.02.24-19.57.39:974][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.24-19.57.40:515][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Eric/Documents/GitHub/Glass-Eyes/Glass_Eyes/Content/' took 0.02s
+[2016.02.24-19.57.40:555][  0]SourceControl: Info Source control is disabled
+[2016.02.24-19.57.40:555][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.24-19.57.40:557][  0]LightingResults: New page: Lighting Build
+[2016.02.24-19.57.40:577][  0]MapCheck: New page: Map Check
+[2016.02.24-19.57.40:577][  0]LightingResults: New page: Lighting Build
+[2016.02.24-19.57.40:617][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004FBBDDFB00
+[2016.02.24-19.57.41:738][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.02.24-19.57.41:766][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.24-19.57.41:843][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.24-19.57.42:119][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 275.435ms to complete.
+[2016.02.24-19.57.42:120][  0]LogFileHelpers: Loading map 'Template_Default' took 1.565
+[2016.02.24-19.57.42:803][  0]LogCollectionManager: Loaded 0 collections in 0.009417 seconds
+[2016.02.24-19.57.42:909][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Eric/Documents/GitHub/Glass
